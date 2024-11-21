@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desbloqueo con Código</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Ingresar el código</h2>
+            <input type="text" id="codigo" placeholder="Escribe el código">
+            <button onclick="verificarCodigo()">Enviar</button>
+            <p id="feedback" class="feedback"></p>
+        </div>
+    </div>
+
+    <!-- Video en pantalla completa -->
+    <video id="videoFondo" class="video-fondo" muted>
+        <source src="video.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+    </video>
+
+    <script src="script.js"></script>
+</body>
+</html>
