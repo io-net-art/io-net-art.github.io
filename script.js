@@ -21,7 +21,7 @@ function verificarCodigo() {
 // Redirigir después de que el video termine
 function redirigirDespuesDelVideo() {
     // Cambia "https://www.ejemplo.com" por la URL a la que deseas redirigir
-    window.location.href = "https://io-nauta.github.io/";
+    window.location.href = "https://edulcanos.itch.io/disea-tu-childroid";
 }
 
 // Selecciona el elemento del video
